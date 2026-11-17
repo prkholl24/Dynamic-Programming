@@ -19,3 +19,15 @@
   The recursive solution can be optimized using memoization, storing previously calculated results to avoid redundant recursive calls.
   The memoization structure uses a 3d array which stores the current level, number of rooms closed, and which room was previously closed if any. 
 </p>
+<h2>Inputs</h2>
+<p1>
+  Both the dynamic and recursive solutions take the same inputs. States can be read from a file, or entered manually, chosen by the Boolean, "load_from_file."
+  Which test case is loaded is defined as the string passed to "load_test_case."
+</p1>
+<p>
+  Manually, the first input contains two integers, N and K, where 3&#8804;N&#8804;200 gives the number of rows, and 0&#8804;K&#8804;N gives the number of rooms that must be     closed off. 
+  This is followed by N rows of two integers, giving the scare factor of the two rooms in that row. 
+</p>
+<p>
+  Solutions are found in the "Expected_Outputs.txt" 
+</p>
